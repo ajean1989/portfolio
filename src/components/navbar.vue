@@ -7,10 +7,6 @@
     const route = useRoute();
     const currentURI = computed(() => route.fullPath); // Obtenir l'URI complète
 
-    console.log("aaa")
-
-    console.log(currentURI)
-
     const navbar = ref({
         "/about" : ["/experiences", "/contact"],
         "/experiences" : ["/contact", "/about"],
