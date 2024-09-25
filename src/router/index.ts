@@ -8,7 +8,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      redirect: '/about' // redirige vers "/about"
+      component: () => import('../views/AboutView.vue')
     },
     {
       path: '/about',
