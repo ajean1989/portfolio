@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 import XpView from '../views/XpView.vue'
 import ContactView from '../views/ContactView.vue'
 
@@ -9,7 +8,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView
+      redirect: '/about' // redirige vers "/about"
     },
     {
       path: '/about',
