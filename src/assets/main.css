@@ -9,6 +9,8 @@ body{
   margin: 0;
   padding: 0;
   font-weight: normal;
+  overflow: hidden;
+  position: absolute;
 }
 
 
@@ -21,20 +23,14 @@ a,
 }
 
 
-#footer-style{
-  position: relative;
-  width: 400vw;
-  height: 400vw;
-  right: 150vw;
-  border-radius: 100%;
-  padding-top: 2em;
-  background-color:#2e3445;
-}
-
 
 @media (hover: hover) {
   a:hover {
     background-color: hsla(160, 100%, 37%, 0.2);
+  }
+  footer a:hover {
+    background-color:  #2e3445;
+
   }
 }
 

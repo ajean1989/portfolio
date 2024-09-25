@@ -31,8 +31,22 @@
         font-display: swap;
         src: url('./src/assets/fonts/Flamenco-Regular.ttf') format('truetype');
       }
+      @font-face {
+        font-family: 'custom5';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('./src/assets/fonts/Overpass-Regular.ttf') format('truetype');
+      }
+      @font-face {
+        font-family: 'custom6';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url('./src/assets/fonts/Overpass-ExtraLight.ttf') format('truetype');
+      }
 
     body{
-        font-family: 'custom4';
+        font-family: 'custom6';
     }
   }
