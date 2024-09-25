@@ -1,7 +1,3 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
   
   <div className="flex flex-col items-center w-4/5 md:w-3/5 lg:w-3/6">
