@@ -74,5 +74,5 @@ jobs:
         with:
           app-name: 'portfolio-aj'
           slot-name: 'Production'
-          package: .
+          package: ./dist
           
