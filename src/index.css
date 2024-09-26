@@ -8,42 +8,42 @@
         font-style: normal;
         font-weight: 400;
         font-display: swap;
-        src: url('./src/assets/fonts/TT Interphases Pro Trial Condensed Medium.ttf') format('truetype');
+        src: url('./assets/fonts/TT Interphases Pro Trial Condensed Medium.ttf') format('truetype');
       }
     @font-face {
       font-family: 'custom2';
       font-style: normal;
       font-weight: 400;
       font-display: swap;
-      src: url('./src/assets/fonts/Fashion Fetish Light.ttf') format('truetype');
+      src: url('./assets/fonts/Fashion Fetish Light.ttf') format('truetype');
     }
     @font-face {
         font-family: 'custom3';
         font-style: normal;
         font-weight: 400;
         font-display: swap;
-        src: url('./src/assets/fonts/Eirik Raude.ttf') format('truetype');
+        src: url('./assets/fonts/Eirik Raude.ttf') format('truetype');
       }
       @font-face {
         font-family: 'custom4';
         font-style: normal;
         font-weight: 400;
         font-display: swap;
-        src: url('./src/assets/fonts/Flamenco-Regular.ttf') format('truetype');
+        src: url('./assets/fonts/Flamenco-Regular.ttf') format('truetype');
       }
       @font-face {
         font-family: 'custom5';
         font-style: normal;
         font-weight: 400;
         font-display: swap;
-        src: url('./src/assets/fonts/Overpass-Regular.ttf') format('truetype');
+        src: url('./assets/fonts/Overpass-Regular.ttf') format('truetype');
       }
       @font-face {
         font-family: 'custom6';
         font-style: normal;
         font-weight: 400;
         font-display: swap;
-        src: url('./src/assets/fonts/Overpass-ExtraLight.ttf') format('truetype');
+        src: url('./assets/fonts/Overpass-ExtraLight.ttf') format('truetype');
       }
 
     body{

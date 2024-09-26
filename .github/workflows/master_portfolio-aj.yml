@@ -31,7 +31,6 @@ jobs:
 
       - name: Zip artifact for deployment
         run: |
-          ls
           zip release.zip ./dist/* -r
 
       - name: Upload artifact for deployment job
@@ -58,8 +57,6 @@ jobs:
       - name: Unzip artifact for deployment
         run: |
           unzip release.zip
-          cat dist/index.html 
-          ls
       
       - name: Login to Azure
         uses: azure/login@v2
