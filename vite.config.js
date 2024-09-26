@@ -8,13 +8,9 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
-  optimizeDeps: {
-    include: ['vue'],
-  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
-      vue: 'vue/dist/vue.esm-browser.js',
     }
   }
 })
