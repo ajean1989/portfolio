@@ -59,6 +59,7 @@ jobs:
         run: |
           unzip release.zip
           cat dist/index.html 
+          ls
       
       - name: Login to Azure
         uses: azure/login@v2
