@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
   import { RouterLink, RouterView } from 'vue-router'
   import svgBackground from './components/svgBackground.vue'
   import navbar from './components/navbar.vue'
